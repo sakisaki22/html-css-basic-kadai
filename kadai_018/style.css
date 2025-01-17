@@ -17,9 +17,7 @@
 #middle{
     width: 800px;
     height: 800px;
-    padding: 20px 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     background-color: #ffd9df;
     position: relative;
 }
