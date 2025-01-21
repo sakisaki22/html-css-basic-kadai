@@ -58,6 +58,12 @@ PC用のスタイル
   #nav-pc>a:active {
     color: #0d0d0d;
   }
+  #menu-sp{
+    display: none;
+  }
+  #nav-sp{
+    display: none;
+  }
 }
 /* スマホ用スタイル */
 @media screen and (max-width: 767px){
@@ -71,7 +77,6 @@ PC用のスタイル
   }
 /* ハンバーガーメニュー */
 #menu-sp{
-  display: block;
   float: right;
   padding: 0;
 }
@@ -100,6 +105,9 @@ PC用のスタイル
 #logo-sp{
   margin: 80px 0 30px 20px;
 }
+#nav-sp a{
+  display: block;
+}
 #nav-sp a:link{
   color: #ffffff;
 }
@@ -113,7 +121,7 @@ PC用のスタイル
 #nav-sp a:active{
   color: #ffffff;
 }
-#nav-sp a.menu{
+#nav-sp .menu{
   text-decoration: none;
   display: block;
   margin: 0 20px;
